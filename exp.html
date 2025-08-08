@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Enrollment</title>
+  <link rel="stylesheet" href="exp.css"/>
+</head>
+<body>
+  <header>
+    <h1>Course Enrollment Portal</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#enroll">Enroll</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <h2>Upskill Your Career with Our Expert Courses</h2>
+    <p>Join thousands of learners building their future.</p>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2>Available Courses</h2>
+    <div class="course-card">
+      <h3>Python Programming</h3>
+      <p>Learn Python from scratch and build real-world applications.</p>
+    </div>
+    <div class="course-card">
+      <h3>Web Development</h3>
+      <p>Master HTML, CSS, JavaScript, and build responsive websites.</p>
+    </div>
+    <div class="course-card">
+      <h3>Data Structures & Algorithms</h3>
+      <p>Crack coding interviews with solid DSA concepts and problem-solving.</p>
+    </div>
+  </section>
+
+  <section id="enroll" class="enroll-form">
+    <h2>Enroll Now</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">-- Choose a course --</option>
+        <option value="python">Python Programming</option>
+        <option value="web">Web Development</option>
+        <option value="dsa">Data Structures & Algorithms</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CourseEnroll Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
